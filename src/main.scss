@@ -1,0 +1,22 @@
+.container2 {
+	margin: 0 2rem;
+}
+
+.sort-btn {
+	cursor: pointer;
+	opacity: .3;
+
+	&.selected {
+		opacity: 1;
+
+		&.ud {
+			transform: rotateZ(180deg);
+		}
+	}
+}
+
+.counter {
+	display: inline-block;
+	width: 35px;
+	text-align: center;
+}
